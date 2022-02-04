@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topbar{
+    background-color:black;
+    height: 50px;
+    margin:0px 300px;
+    display:flex;
+    align-items:center;
+}
+.titlebar{
+    color:white;
+    margin-left:50px;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.yourfeed{
+    margin: 0px auto;
+}
+.columns{
+    display:flex;
+}
+.leftcolumn{
+    flex:1;
+}
+.rightcolumn{
+    flex:2;
+    display:flex;
+    flex-direction: column;
+}
+
+.profilebox{
+    border:3px solid black;
+    height:200px;
+    width:150px;
+    margin-left:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    height:75px;
+}
+.box{
+    border:3px solid black;
+    height:150px;
+    margin: 0px 300px 10px 10px;
+}
+.topper{
+    height:75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.namebox{
+    margin-left:50px;
+}
+button{
+    margin-right:50px;
+    padding:5px 10px;
+    background-color: yellow;
+}
+.boxpara{
+    margin-left:50px;
+    font-size: 20px;
+    width:500px;
+}
+.likes{
+    margin-left:200px;
+}

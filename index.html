@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <h1 class="titlebar">Network</h1>
+    </div>
+    <div class="main">
+        <h2 class="yourfeed">Your Feed</h2>
+        <div class="columns">
+            <div class="leftcolumn">
+                <div class="profilebox">
+                    <img src="user-circle.png" alt="">
+                    <p><a href="#">Add an avatar</a></p>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="box">
+                    <div class="topper">
+                        <h2 class="namebox">Neil M</h2>
+                        <p class="likes toplike">0 like(s)</p>
+                        <button class="topbutton" onclick="add1('.toplike')">Like</button>
+                    </div>
+                    <p class="boxpara">I just setup this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+                <div class="box">
+                    <div class="topper">
+                        <h2 class="namebox">Nichole K</h2>
+                        <p class="likes middlelike">0 like(s)</p>
+                        <button class="topbutton" onclick="add1('.middlelike')">Like</button>
+                    </div>
+                    <p class="boxpara">Just finished my <a href="#">nextcomic</a>, check it out.</p>
+                </div>
+                <div class="box">
+                    <div class="topper">
+                        <h2 class="namebox">Jim R</h2>
+                        <p class="likes bottomlike">0 like(s)</p>
+                        <button class="topbutton" onclick="add1('.bottomlike')">Like</button>
+                    </div>
+                    <p class="boxpara">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
